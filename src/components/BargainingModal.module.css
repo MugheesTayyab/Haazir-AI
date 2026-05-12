@@ -44,7 +44,7 @@
 .priceBox { text-align: center; }
 .priceLabel { display: block; font-size: 0.68rem; color: var(--text-muted); margin-bottom: 4px; }
 .priceVal   { font-size: 1rem; font-weight: 700; color: var(--text-primary); }
-.agreedPrice { color: var(--green); }
+.agreedPrice { color: var(--primary); }
 
 .arrow { font-size: 1.4rem; color: var(--text-muted); }
 
@@ -69,8 +69,8 @@
   color: var(--text-primary);
 }
 
-.lineUser .lineText  { background: var(--user-bubble); border-bottom-right-radius: 4px; }
-.lineProvider .lineText { background: var(--bot-bubble); border-bottom-left-radius: 4px; }
+.lineUser .lineText  { background: var(--primary); color: white; border-bottom-right-radius: 2px; }
+.lineProvider .lineText { background: var(--bg-elevated); border: 1px solid var(--border); border-bottom-left-radius: 2px; }
 
 .typing {
   display: flex; gap: 4px; align-items: center;
@@ -96,11 +96,11 @@
 
 .acceptBtn {
   flex: 1; padding: 10px;
-  background: var(--green); border: none; border-radius: var(--radius-md);
-  color: #000; font-weight: 700; font-size: 0.82rem; cursor: pointer;
-  font-family: inherit; transition: background var(--transition);
+  background: var(--primary); border: none; border-radius: var(--radius-md);
+  color: white; font-weight: 600; font-size: 0.82rem; cursor: pointer;
+  font-family: inherit; transition: background var(--transition), box-shadow var(--transition);
 }
-.acceptBtn:hover { background: var(--green-dark); color: white; }
+.acceptBtn:hover { background: var(--primary-dark); box-shadow: 0 4px 12px var(--primary-glow); }
 
 .cancelBtn {
   padding: 10px 16px; background: none;

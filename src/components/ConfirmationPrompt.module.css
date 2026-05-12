@@ -2,12 +2,12 @@
 
 .card {
   background: var(--bg-elevated);
-  border: 1px solid var(--green-dark);
+  border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 14px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
   animation: fadeIn 0.3s ease;
 }
 
@@ -40,21 +40,21 @@
 }
 
 .providerBtn:hover {
-  border-color: var(--green);
-  background: rgba(37,211,102,0.06);
+  border-color: var(--primary);
+  background: var(--primary-glow);
 }
 
 .providerBtnTop {
-  border-color: var(--green-dark);
+  border-color: var(--primary);
 }
 
 .providerBtnRank {
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 700;
-  color: var(--green);
-  background: rgba(37,211,102,0.12);
-  padding: 1px 6px;
-  border-radius: 8px;
+  color: var(--primary);
+  background: var(--primary-glow);
+  padding: 2px 8px;
+  border-radius: 4px;
   flex-shrink: 0;
 }
 
@@ -66,9 +66,9 @@
 }
 
 .providerBtnPrice {
-  font-size: 0.72rem;
-  color: var(--green);
-  font-weight: 600;
+  font-size: 0.75rem;
+  color: var(--primary);
+  font-weight: 700;
   white-space: nowrap;
 }
 

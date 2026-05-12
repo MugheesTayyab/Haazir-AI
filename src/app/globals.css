@@ -6,44 +6,45 @@
 
 /* ── CSS Variables ──────────────────────────────────────────── */
 :root {
-  /* Brand Colors */
-  --green:        #25D366;
-  --green-dark:   #128C7E;
-  --green-light:  #DCF8C6;
-  --crisis-red:   #FF3B30;
-  --crisis-bg:    #3D0000;
-  --info-blue:    #007AFF;
-  --warn-orange:  #FF9F0A;
+  /* Chocolate Brand Colors */
+  --primary:      #d2691e; /* Chocolate */
+  --primary-dark: #8b4513; /* SaddleBrown */
+  --primary-glow: rgba(210, 105, 30, 0.15);
+  
+  --crisis-red:   #e25822; /* Flame */
+  --crisis-bg:    #1a0a05;
+  --info-blue:    #5f9ea0; /* CadetBlue - more muted */
+  --warn-orange:  #ff8c00;
 
-  /* Chat Colors */
-  --user-bubble:  #005C4B;
-  --bot-bubble:   #1F2C34;
-  --chat-bg:      #0B141A;
+  /* Chat Colors - Warm & Rich */
+  --user-bubble:  #3e2723; /* Dark Brown */
+  --bot-bubble:   #2d1b16;
+  --chat-bg:      #0f0a09;
 
-  /* UI Surface */
-  --bg-primary:   #0D1117;
-  --bg-surface:   #161B22;
-  --bg-elevated:  #21262D;
-  --border:       rgba(255,255,255,0.08);
+  /* UI Surface - Cocoa & Mocha */
+  --bg-primary:   #120c0b;
+  --bg-surface:   #1b1412;
+  --bg-elevated:  #251d1a;
+  --border:       rgba(210, 105, 30, 0.1);
 
-  /* Text */
-  --text-primary:   #E6EDF3;
-  --text-secondary: #8B949E;
-  --text-muted:     #484F58;
+  /* Text - Creamy & Warm */
+  --text-primary:   #fdf5e6; /* OldLace */
+  --text-secondary: #a89080; /* Cocoa dust */
+  --text-muted:     #6d5a50;
 
-  /* Trace Panel */
-  --trace-bg:     #0d0d1a;
-  --trace-text:   #00FF9F;
-  --trace-dim:    #005c3a;
+  /* Trace Panel - Roasted Coffee Style */
+  --trace-bg:     #0c0807;
+  --trace-text:   #d2b48c; /* Tan */
+  --trace-dim:    #5d4037;
 
-  /* Sizing */
+  /* Sizing - Softer Corners */
   --radius-sm:  6px;
-  --radius-md:  12px;
-  --radius-lg:  20px;
-  --radius-xl:  28px;
+  --radius-md:  10px;
+  --radius-lg:  16px;
+  --radius-xl:  24px;
 
   /* Transitions */
-  --transition: 0.2s ease;
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ── Reset & Base ───────────────────────────────────────────── */

@@ -1,8 +1,8 @@
 /* BookingCard.module.css */
 
 .card {
-  background: linear-gradient(145deg, #0a2e1a, #0d3321);
-  border: 1px solid var(--green-dark);
+  background: linear-gradient(145deg, #11111b, #18181b);
+  border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   overflow: hidden;
   font-size: 0.85rem;
@@ -21,8 +21,8 @@
   align-items: center;
   gap: 12px;
   padding: 14px 16px;
-  background: rgba(37,211,102,0.12);
-  border-bottom: 1px solid rgba(37,211,102,0.2);
+  background: var(--primary-glow);
+  border-bottom: 1px solid var(--border);
 }
 
 .crisisCard .header {
@@ -34,9 +34,10 @@
 
 .headerTitle {
   font-weight: 700;
-  color: var(--green);
-  font-size: 0.85rem;
-  letter-spacing: 0.03em;
+  color: var(--primary);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .crisisCard .headerTitle { color: var(--crisis-red); }
@@ -65,8 +66,8 @@
 .idValue {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.85rem;
-  color: var(--green);
-  font-weight: 600;
+  color: var(--primary);
+  font-weight: 700;
 }
 
 .crisisCard .idValue { color: var(--crisis-red); }
@@ -115,13 +116,14 @@
 .statusDot {
   width: 8px; height: 8px;
   border-radius: 50%;
-  background: var(--green);
+  background: var(--primary);
   animation: pulse 1.5s infinite;
 }
 
 .statusText {
   font-size: 0.72rem;
-  color: var(--green);
+  color: var(--primary);
+  font-weight: 600;
 }
 
 .reminderNote {
